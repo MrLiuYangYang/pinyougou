@@ -67,9 +67,9 @@ app.controller('goodsController', function($scope, $controller, goodsService,ite
 				});
 	}
 
-	$scope.status = [ '未审核', '已审核', '审核未通过', '关闭' ];// 商品状态
-	$scope.itemCatList = [];// 商品分类列表
-	// 查询商品分类
+	$scope.status = [ '未审核', '已审核', '审核未通过', '关闭' ];
+	$scope.itemCatList = [];
+	
 	$scope.findItemCatList = function() {
 		itemCatService.findAll().success(function(response) {
 			for (var i = 0; i < response.length; i++) {
@@ -77,5 +77,34 @@ app.controller('goodsController', function($scope, $controller, goodsService,ite
 			}
 		});
 	}
+	
+	
+	//更新状态
+	$scope.updateStatus=function(status){
+		goodsService.updateStatus($scope.selectIds,status).success(
+		 function(response){
+			 if (response.success) {
+				$scope.reloadList();
+				$scope.slectIds=[];
+			}else{
+				alert(response.message);
+			}
+		 }		
+		);
+	}
 
+	
+	 $scope.selectIds=[];
+	
+	$scope.updateSelection=function($event, id){
+		if ($event.target.checked) {
+			
+			$scope.selectIds.push(id);
+		}else{
+			 var ac  = $scope.selectIds.indexOf(id);
+			$scope.selectIds.split(ac,1);
+		}
+		
+	}
+	
 });
