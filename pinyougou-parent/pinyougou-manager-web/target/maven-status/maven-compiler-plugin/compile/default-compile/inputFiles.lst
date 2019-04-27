@@ -1,10 +1,13 @@
-D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\SellerController.java
-D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\GoodsDescController.java
-D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\LoginController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\SpecificationController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\ItemController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\TypeTemplateController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\BrandController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\GoodsController.java
-D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\ItemCatController.java
 D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\SpecificationOptionController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\SellerController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\UploadController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\GoodsDescController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\LoginController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\ContentCategoryController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\ContentController.java
+D:\woorkspace\pinyougou-parent\pinyougou-manager-web\src\main\java\com\pinyougou\manager\controller\ItemCatController.java

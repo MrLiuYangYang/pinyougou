@@ -292,8 +292,7 @@ app
 						serviceObject.success(function(response) {
 							if (response.success) {
 								alert('保存成功');
-								$scope.entity = {};
-								editor.html("");
+								location.href="goods.html";
 							} else {
 								alert(response.message);
 							}
